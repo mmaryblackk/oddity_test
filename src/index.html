@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Google</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <script src="./script.js" defer></script>
+  </head>
+  <body class="body">
+    <header class="header">
+      <nav class="header__links">
+        <a href="#" class="header__link">Gmail</a>
+        <a href="#" class="header__link">Зображення</a>
+        <a href="#" class="header__link login-btn">Увійти</a>
+      </nav>
+    </header>
+    <div class="main">
+      <img
+        id="google-logo"
+        class="logo"
+        src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png"
+        alt="Google"
+        width="272"
+        height="92"
+      />
+      <form class="search-box" action="https://www.google.com/search">
+        <span class="search-box__icon">&#128269;</span>
+        <input
+          class="search-box__input"
+          type="text"
+          name="q"
+          autocomplete="off"
+        />
+        <span class="search-box__icon">&#127760;</span>
+        <span class="search-box__icon">&#128247;</span>
+      </form>
+      <div class="buttons">
+        <button class="buttons__button" type="submit" form="search">
+          Пошук Google
+        </button>
+        <button class="buttons__button" type="button" id="oddity-btn">
+          Мені пощастить
+        </button>
+      </div>
+      <div class="lang">
+        Мова Google: <a href="#" class="lang__link">English</a>
+      </div>
+    </div>
+    <div class="footer">
+      <div class="footer__country">Україна</div>
+      <div class="footer__links">
+        <div class="footer__links-block">
+          <a href="#" class="footer__link">Про Google</a>
+          <a href="#" class="footer__link">Реклама</a>
+          <a href="#" class="footer__link">Для бізнесу</a>
+          <a href="#" class="footer__link">Як працює Пошук</a>
+        </div>
+        <div class="footer__links-block">
+          <a href="#" class="footer__link">Конфіденційність</a>
+          <a href="#" class="footer__link">Умови</a>
+          <a href="#" class="footer__link">Налаштування</a>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
